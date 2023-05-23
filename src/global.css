@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --headline-300: Urbanist;
+  --sf-subheadline-semibold: "Source Sans Pro";
+
+  /* font sizes */
+  --headline-300-size: 14px;
+  --headline-3001-size: 12px;
+  --headline-700-size: 24px;
+  --sf-subheadline-semibold-size: 15px;
+
+  /* Colors */
+  --primary-neutral-900: #0a0c2c;
+  --primary-brand-0: #fff;
+  --color-darkslateblue: #262b4f;
+  --primary-neutral-500: #6b729d;
+  --color-mediumslateblue: #3e63f4;
+  --primary-neutral-100: #e1e5f6;
+  --primary-neutral-300: #c6cdee;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+  --padding-base: 16px;
+  --padding-26xl: 45px;
+
+  /* border radiuses */
+  --br-21xl: 40px;
+  --br-26xl: 45px;
+  --br-5xs: 8px;
+  --br-11xs-3: 1.3px;
+  --br-10xs-7: 2.7px;
+}

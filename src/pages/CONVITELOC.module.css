@@ -1,0 +1,300 @@
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  height: 100%;
+  width: 90.43%;
+  top: 0;
+  right: 9.57%;
+  bottom: 0;
+  left: 0;
+  border-radius: 2.67px;
+  border: 1px solid var(--primary-brand-0);
+  box-sizing: border-box;
+  opacity: 0.35;
+}
+.capIcon {
+  height: 35.29%;
+  width: 5.46%;
+  top: 32.35%;
+  right: 0;
+  bottom: 32.35%;
+  left: 94.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.4;
+}
+.battery,
+.capacity {
+  position: absolute;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.01);
+}
+.capacity {
+  height: 64.71%;
+  width: 73.99%;
+  top: 17.65%;
+  right: 17.79%;
+  bottom: 17.65%;
+  left: 8.22%;
+  border-radius: 1.33px;
+  background-color: var(--primary-brand-0);
+}
+.battery {
+  height: 25.76%;
+  width: 6.49%;
+  top: 39.39%;
+  right: 3.82%;
+  bottom: 34.85%;
+  left: 89.69%;
+}
+.wifiIcon {
+  position: relative;
+  width: 15.33px;
+  height: 11px;
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 17px;
+  height: 10.67px;
+}
+.time {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 4.5px);
+  left: 0;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.timeStyle {
+  position: absolute;
+  height: 47.73%;
+  width: 14.4%;
+  top: 15.91%;
+  right: 80%;
+  bottom: 36.36%;
+  left: 5.6%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+}
+.barsStatusBarIphoneL,
+.miniSocial {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+.barsStatusBarIphoneL {
+  height: 5.42%;
+  top: 0;
+  right: 0;
+  bottom: 94.58%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  font-size: var(--sf-subheadline-semibold-size);
+  font-family: var(--sf-subheadline-semibold);
+}
+.miniSocial {
+  height: 3.69%;
+  top: 5.05%;
+  font-size: var(--headline-700-size);
+  letter-spacing: -0.02em;
+  line-height: 34px;
+  font-weight: 600;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.conviteLocChild {
+  position: absolute;
+  height: 28.94%;
+  top: 15.64%;
+  bottom: 55.42%;
+  left: calc(50% - 167.5px);
+  border-radius: var(--br-5xs);
+  max-height: 100%;
+  width: 335px;
+  object-fit: cover;
+}
+.aFestaAcontecer,
+.jul01 {
+  position: absolute;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  color: var(--primary-neutral-500);
+}
+.aFestaAcontecer {
+  height: 7.39%;
+  width: 86.93%;
+  top: 53.2%;
+  left: 7.73%;
+  display: inline-block;
+}
+.jul01 {
+  top: 12.44%;
+  left: 4.27%;
+}
+.conviteLocItem {
+  position: absolute;
+  height: 21.55%;
+  width: 82.93%;
+  top: 66.63%;
+  right: 8.53%;
+  bottom: 11.82%;
+  left: 8.53%;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.button {
+  position: absolute;
+  height: 3.94%;
+  width: 27.47%;
+  top: 68.23%;
+  right: 60.67%;
+  bottom: 27.83%;
+  left: 11.87%;
+}
+.gpsIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.location {
+  position: absolute;
+  top: 620px;
+  left: 169px;
+  border-radius: 28px;
+  background-color: var(--color-mediumslateblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  flex: 1;
+  cursor: pointer;
+}
+.label {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button2 {
+  border-radius: var(--br-26xl);
+  background-color: var(--color-mediumslateblue);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-26xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.label1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button3,
+.buttonParent,
+.component7 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button3 {
+  border-radius: var(--br-26xl);
+  width: 98px;
+  height: 38px;
+  display: none;
+  padding: var(--padding-4xs) var(--padding-base);
+  box-sizing: border-box;
+  color: var(--primary-neutral-500);
+}
+.buttonParent,
+.component7 {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  display: flex;
+}
+.buttonParent {
+  flex: 1;
+  overflow: hidden;
+}
+.component7 {
+  position: absolute;
+  top: 373px;
+  left: 20px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslateblue);
+  width: 335px;
+  height: 47px;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--headline-300-size);
+}
+.ruaHormidasDa {
+  position: absolute;
+  top: 507px;
+  left: 64px;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 600;
+}
+.button4,
+.button5 {
+  position: absolute;
+  top: 736px;
+  left: 197px;
+  cursor: pointer;
+}
+.button5 {
+  top: 737px;
+  left: 4px;
+}
+.social {
+  position: absolute;
+  height: 3.94%;
+  width: 11.2%;
+  top: 9.48%;
+  left: 14.13%;
+  font-size: var(--headline-300-size);
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.conviteLocInner {
+  position: absolute;
+  height: 3.69%;
+  width: 6.93%;
+  top: 8.87%;
+  right: 89.33%;
+  bottom: 87.44%;
+  left: 3.73%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.conviteLoc {
+  position: relative;
+  background-color: var(--primary-neutral-900);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--headline-3001-size);
+  color: var(--primary-brand-0);
+  font-family: var(--headline-300);
+}
